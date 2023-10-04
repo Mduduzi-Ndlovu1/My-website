@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Full-Stack Developer | Mduduzi</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="mduduzindlovu02@gmail.com"><i class="ri-mail-fill"></i></a>
+          <a href="https://github.com/Mduduzi-Ndlovu1"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/mduduzi-ndlovu/"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">A<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Crafting Digital Excellence</h4>
+          <h1>Hi, I am Mduduzi Ndlovu. Welcome to my Portfolio Site</h1>
+          <p>
+            Welcome to my digital playground, where lines of code come alive to build the web of tomorrow. I'm Mduduzi Ndlovu, a Full-Stack Web Developer with a passion for crafting immersive digital experiences. From pixel-perfect front-end designs that captivate your senses to robust back-end systems that power seamless functionality, I thrive at the intersection of creativity and technology.
+          </p>
+          <button class="btn">Hire Me Now XD</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi There I Am Mduduzi Ndlovu</h2>
+        <p>
+          I am a dynamic and passionate individual with a zest for life. Known for my unwavering optimism and resilience, I approach every challenge with a can-do attitude and an infectious enthusiasm that inspires those around me. I thrive in collaborative environments, leveraging my excellent teamwork and interpersonal skills to foster a sense of unity and purpose.
+        </p>
+        <p>
+          One of my standout qualities is my creative problem-solving ability. I have a knack for seeing solutions where others might see obstacles, and I enjoy using my innovative thinking to overcome challenges. I am often the go-to person for brainstorming ideas and finding unique solutions to complex problems.
+        </p> 
+
+        <p>
+          Outside of my professional pursuits, you'll find me embracing adventure, whether it's exploring new places, diving into a good book, or indulging in my passion for gaming, skating and Critiqing movies XD. My adventurous spirit extends to my personal and professional growth as well, as I am constantly seeking opportunities to learn, adapt, and evolve.
+        </p>
+        <h4>
+          I'm passionate about web development, with expertise in both front-end and back-end technologies. My skills include HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, SQL, MongoDB, and API integration. I excel at creating user-centric web applications and thrive on solving complex problems. My creative thinking, adaptability, and commitment to excellence drive me to deliver high-quality solutions that exceed expectations.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/Offical CV.pdf" download class="download__btn">
+            Download CV
+          </a>
+          <a href="assets/Cover Letter.pdf" download class="download__btn">
+            Download Cover Letter
+          </a>
+          <a href="mduduzindlovu02@gmail.com"><i class="ri-mail-fill"></i></a>
+          <a href="https://github.com/Mduduzi-Ndlovu1"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/mduduzi-ndlovu/"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>Design</h4>
+          <p>
+            Every pixel, color, and element should not only be visually appealing but also purposeful. I strive to create designs that not only capture attention but also enhance the overall user experience, ensuring that form seamlessly meets function.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>Development</h4>
+          <p>
+            I'm committed to staying at the forefront of technology, ensuring your digital solutions are both high-performing and cutting-edge. With me, your projects benefit from constant innovation and boundary-pushing for top-notch results.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Testing & QA</h4>
+          <p>
+            With a background in Quality Assurance, I grasp the pivotal role QA plays in project success. I meticulously test every element, guaranteeing reliable, secure, and high-performance digital solutions. Think of me as the safeguard ensuring digital presence consistently exceeds user expectations, creating a seamless and trustworthy experience.          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">My Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Web Apps</button>
+          <button class="btn project__btn" data-filter=".game">Games</button>
+          <button class="btn project__btn" data-filter=".design">
+            Designs
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix design">
+          <a href="https://mduduzi-ndlovu1.github.io/Dali-Portfolio-demo/">
+            <img src="assets/Project-1 design.PNG" alt="project" />
+
+          </a>
+        </div>
+        <div class="project__card mix web">
+          <a href="https://mduduzi-ndlovu1.github.io/construction-company-website/">
+            <img src="assets/project-2 web.PNG" alt="project" />
+          </a>
+          
+        </div>
+        <div class="project__card mix design">
+          <a href="https://mduduzi-ndlovu1.github.io/Tribute-Page/"></a>
+          <img src="assets/project-4 design.PNG" alt="project" />
+        </div>
+
+        <div class="project__card mix game">
+          <a href="https://mduduzi-ndlovu1.github.io/Simon-Game-Challenge/">
+            <img src="assets/project-3 game.PNG" alt="project" />
+          </a>
+        </div>
+        
+        <div class="project__card mix game">
+          <a href="https://mduduzi-ndlovu1.github.io/Text-based-game/"></a>
+          <img src="assets/project-5 game.PNG" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-6.jpg" alt="project" />
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Me</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Andarson</a></h5>
+          <p>
+            I'm a dedicated web developer with a creative flair and a penchant
+            for turning lines of code into captivating online experiences.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-dribbble-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#">Web Design</a>
+            <a href="#">App Design</a>
+            <a href="#">Photography</a>
+            <a href="#">Videography</a>
+            <a href="#">Web Development</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Contact</a>
+            <a href="#">My Blog</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
