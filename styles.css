@@ -313,6 +313,7 @@ nav {
   justify-content: space-between;
   flex-direction: column;
   gap: 2rem;
+  
 }
 
 .project__nav {
@@ -335,6 +336,7 @@ nav {
 
 .project__grid {
   display: grid;
+  
   gap: 1rem;
 }
 
